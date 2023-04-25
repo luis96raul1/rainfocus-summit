@@ -1,4 +1,4 @@
-// import "./App.scss";
+import "./app.scss";
 
 import { SideBar } from "./components/sidebar/Sidebar";
 import { Summit } from "./components/subPages/Summit";

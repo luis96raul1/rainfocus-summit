@@ -1,0 +1,39 @@
+.step-container {
+  margin-bottom: 24px;
+
+  .step-title-container {
+    margin-bottom: 8px;
+
+    span {
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    .step-title {
+      font-weight: 700;
+    }
+  }
+
+  .step1-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 24px;
+    gap: 32px;
+  }
+
+  .step2-container {
+    // display: flex;
+    // flex-flow: row wrap;
+    // align-items: flex-start;
+    // padding: 0px;
+    // gap: 8px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(341px, 1fr));
+  }
+
+  .step3-container {
+  }
+}

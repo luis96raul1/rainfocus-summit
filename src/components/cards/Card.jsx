@@ -1,11 +1,17 @@
-export const Card = ({ title = null, text, icon = null }) => {
+import "./card.scss";
+
+export const Card = ({ stepNumber, title = null, text, icon = null }) => {
   return (
-    <div className="card-container">
+    <div
+      className={`card-container step${stepNumber} ${title ? "" : "center"}`}
+    >
       <div className="title-container">
-        {title && <div>{title}</div>}
-        {icon && <div>{icon}</div>}
+        {icon && <img src={icon} alt="card icon" />}
+        {title && <p className="card-title">{title}</p>}
       </div>
-      <div className="body-container">{text}</div>
+      <div className="body-container">
+        <p className="card-body">{text}</p>
+      </div>
     </div>
   );
 };

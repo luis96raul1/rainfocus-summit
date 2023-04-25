@@ -1,11 +1,13 @@
-export const Step = ({ stepNumber, stepTitle, children }) => {
+import "./step.scss";
+
+export const Step = ({ stepNumber, stepTitle, children, childrenClass }) => {
   return (
-    <div>
-      <div>
-        <span>{`Step ${stepNumber}: `}</span>
+    <div className="step-container">
+      <div className="step-title-container">
+        <span className="step-title">{`Step ${stepNumber}: `}</span>
         <span>{stepTitle}</span>
       </div>
-      {children}
+      <div className={childrenClass}>{children}</div>
     </div>
   );
 };
