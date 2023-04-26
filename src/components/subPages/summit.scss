@@ -1,5 +1,7 @@
 .summit-body {
-  margin: 40px 48px 0 48px;
+  margin: 40px 0 0 48px;
+  padding-right: 48px;
+
   width: 100%;
   overflow: auto;
 
@@ -81,6 +83,7 @@
 
 @media (max-width: 765px) {
   .summit-body {
-    margin: 40px 10px 0 50px;
+    margin: 40px 0 0 50px;
+    padding-right: 10px;
   }
 }

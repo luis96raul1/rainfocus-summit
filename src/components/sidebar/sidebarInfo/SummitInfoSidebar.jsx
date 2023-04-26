@@ -8,7 +8,6 @@ export const SummitInfoSidebar = ({ setSidebarStatus }) => {
   const [selectedOption, setOption] = useState(2);
 
   const closeSidebar = () => {
-    console.log("asdfasdf");
     setSidebarStatus(true);
   };
 
