@@ -1,7 +1,7 @@
 .summit-body {
-  margin: 48px;
-  margin-top: 40px;
+  margin: 40px 48px 0 48px;
   width: 100%;
+  overflow: auto;
 
   .header-container {
     display: flex;
@@ -76,5 +76,11 @@
       font-size: 20px;
       line-height: 24px;
     }
+  }
+}
+
+@media (max-width: 765px) {
+  .summit-body {
+    margin: 40px 10px 0 50px;
   }
 }

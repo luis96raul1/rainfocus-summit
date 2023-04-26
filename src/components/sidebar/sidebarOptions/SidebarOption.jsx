@@ -30,8 +30,10 @@ export const SideBarOption = ({
       </div>
       {isActive && (
         <div className="subOptions-container">
-          {options?.map((title) => (
-            <p className="subOption">{title}</p>
+          {options?.map((title, id) => (
+            <p key={id} className="subOption">
+              {title}
+            </p>
           ))}
         </div>
       )}

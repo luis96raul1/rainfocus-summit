@@ -41,8 +41,8 @@ export const Summit = () => {
           stepTitle={"Base Settings."}
           childrenClass={"step1-container"}
         >
-          {CardsInfo.step1.map(({ title, text }) => (
-            <Card stepNumber={1} title={title} text={text} />
+          {CardsInfo.step1.map(({ title, text }, id) => (
+            <Card stepNumber={1} title={title} key={id} text={text} />
           ))}
         </Step>
         <Step
@@ -50,8 +50,14 @@ export const Summit = () => {
           stepTitle={"Build registration workflows."}
           childrenClass={"step2-container"}
         >
-          {CardsInfo.step2.map(({ title, icon, text }) => (
-            <Card stepNumber={2} title={title} text={text} icon={icon} />
+          {CardsInfo.step2.map(({ title, icon, text }, id) => (
+            <Card
+              stepNumber={2}
+              title={title}
+              key={id}
+              text={text}
+              icon={icon}
+            />
           ))}
         </Step>
         <Step
@@ -59,8 +65,14 @@ export const Summit = () => {
           stepTitle={"Step 3: Design post-registration experiences."}
           childrenClass={"step3-container"}
         >
-          {CardsInfo.step3.map(({ title, icon, text }) => (
-            <Card stepNumber={3} title={title} text={text} icon={icon} />
+          {CardsInfo.step3.map(({ title, icon, text }, id) => (
+            <Card
+              stepNumber={3}
+              title={title}
+              key={id}
+              text={text}
+              icon={icon}
+            />
           ))}
         </Step>
       </div>
