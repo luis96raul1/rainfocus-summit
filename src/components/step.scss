@@ -18,20 +18,18 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     padding: 16px 24px;
     gap: 32px;
   }
 
   .step2-container {
-    // display: flex;
-    // flex-flow: row wrap;
-    // align-items: flex-start;
-    // padding: 0px;
-    // gap: 8px;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(341px, 1fr));
+    // display: grid;
+    // gap: 1.5rem;
+    // grid-template-columns: repeat(auto-fit, minmax(341px, 1fr));
+    display: flex;
+    gap: 1.5rem;
+    flex-flow: row wrap;
   }
 
   .step3-container {

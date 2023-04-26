@@ -17,28 +17,28 @@ export const CardsInfo = {
   ],
   step2: [
     {
-      icon: LogicIcon,
+      icon: { src: LogicIcon, height: "17", with: "15" },
       title: "Attendee Registration",
       text: "Start by creating a general registration workflow",
     },
     {
-      icon: LogicIcon,
+      icon: { src: LogicIcon, height: "17", with: "15" },
       title: "Attendee Registration",
       text: "Start by creating a general registration workflow",
     },
     {
-      icon: LogicIcon,
+      icon: { src: LogicIcon, height: "17", with: "15" },
       title: "Attendee Registration",
       text: "Start by creating a general registration workflow",
     },
     {
-      icon: AddCircle,
+      icon: { src: AddCircle, height: "20", with: "20" },
       text: "Add Registration Workflow",
     },
   ],
   step3: [
     {
-      icon: Computer,
+      icon: { src: Computer, height: "16px", with: "24px" },
       title: "Attendee Portal",
       text: "Manage the portal that attendees will see after they’ve register for your event.",
     },
