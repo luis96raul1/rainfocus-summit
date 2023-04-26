@@ -32,3 +32,17 @@
     flex-flow: row wrap;
   }
 }
+
+@media (max-width: 765px) {
+  .step-container {
+    .step-title-container {
+      span {
+        font-size: 1.9vw;
+      }
+    }
+    .step1-container {
+      padding: 2vw 3vw;
+      gap: 4vw;
+    }
+  }
+}

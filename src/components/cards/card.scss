@@ -49,3 +49,36 @@
     margin-bottom: 6px;
   }
 }
+
+@media (max-width: 765px) {
+  .card-container {
+    .title-container {
+      .card-title {
+        line-height: normal;
+        font-size: 1.7vw;
+        margin-bottom: 0.1vw;
+      }
+    }
+    .body-container {
+      .card-body {
+        font-size: 1.6vw;
+        line-height: normal;
+      }
+    }
+  }
+  .card-container.step1 {
+    width: 29vw;
+  }
+  .card-container.step2 {
+    width: 36vw;
+    .title-container {
+      margin-top: 3.7vw;
+      margin-bottom: 1.1vw;
+      img {
+        width: 2.2vw;
+        height: 2.2vw;
+        margin-right: 1.6vw;
+      }
+    }
+  }
+}
