@@ -1,0 +1,30 @@
+.sidebarOption-container {
+  width: 215px;
+
+  .main-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 12px;
+    border-radius: 8px;
+
+    &.active {
+      background: rgba(92, 0, 220, 0.08);
+    }
+  }
+
+  p {
+    margin-left: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+    &.active {
+      color: #5c00dc;
+    }
+  }
+  .subOptions {
+    // 12+12+24
+    margin-left: 56px;
+  }
+}

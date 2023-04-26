@@ -4,3 +4,13 @@ h4,
 span {
   font-family: "inter";
 }
+
+body {
+  margin: 0;
+}
+
+.app-main-container {
+  display: flex;
+  height: 100vh;
+  // flex-direction: row;
+}

@@ -44,3 +44,20 @@ export const CardsInfo = {
     },
   ],
 };
+
+export const SidebarOptions = [
+  { id: 1, title: "Guide" },
+  {
+    id: 2,
+    title: "Attendees",
+    subOptions: [
+      "Attendees",
+      "Attendee types",
+      "Packages",
+      "Reg codes",
+      "Discounts",
+    ],
+  },
+  { id: 3, title: "Content" },
+  { id: 4, title: "Exhibitors" },
+];

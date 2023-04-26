@@ -1,0 +1,22 @@
+.side-bar {
+  display: flex;
+  width: 63px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  border-right: 1px solid #ccc;
+
+  img {
+    cursor: pointer;
+  }
+
+  .navigation-icons {
+    .rainFocus-image {
+      margin-bottom: 29px;
+      position: relative;
+      right: -3.9px;
+    }
+  }
+}

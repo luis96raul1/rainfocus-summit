@@ -1,4 +1,4 @@
-import { PersonPortal, SummitIcon } from "../../utils/images";
+import { PersonPortal, SummitLogo } from "../../utils/images";
 import { Step } from "../Step";
 import { Card } from "../cards/Card";
 import { CardsInfo } from "../../assets/db";
@@ -11,7 +11,7 @@ export const Summit = () => {
         <div className="main-header">
           <div className="left-side">
             <div className="image">
-              <img src={SummitIcon} alt="Summit Icon" />
+              <img src={SummitLogo} alt="Summit Icon" />
             </div>
             <div className="title-container">
               <h4>RainFocus Summit</h4>

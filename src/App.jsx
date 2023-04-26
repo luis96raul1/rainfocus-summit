@@ -5,7 +5,7 @@ import { Summit } from "./components/subPages/Summit";
 
 function App() {
   return (
-    <div className="main-container">
+    <div className="app-main-container">
       <SideBar />
       <Summit />
     </div>
