@@ -7,11 +7,9 @@ import AddCircle from "../assets/icons/addCircle.png";
 import Computer from "../assets/icons/computer.png";
 import Dot from "../assets/icons/dot.png";
 import ActiveDot from "../assets/icons/activeDot.png";
-import MiniDot from "../assets/icons/miniDot.png";
 import Magnifier from "../assets/icons/magnifier.png";
 
 export {
-  MiniDot,
   Magnifier,
   Dot,
   ActiveDot,

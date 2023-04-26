@@ -13,7 +13,7 @@ export const SummitInfoSidebar = () => {
         <h4>RainFocus Summit</h4>
         <div className="sidebarInfo-date-place">
           <span>Lehi, UT</span>
-          <span>.</span>
+          <span className="sidebarTextDot">·</span>
           <span>December 15th</span>
         </div>
         <div>

@@ -46,7 +46,7 @@ export const CardsInfo = {
 };
 
 export const SidebarOptions = [
-  { id: 1, title: "Guide" },
+  { id: 1, title: "Guide", subOptions: ["Dummy option", "Dummy option"] },
   {
     id: 2,
     title: "Attendees",
@@ -58,6 +58,19 @@ export const SidebarOptions = [
       "Discounts",
     ],
   },
-  { id: 3, title: "Content" },
-  { id: 4, title: "Exhibitors" },
+  {
+    id: 3,
+    title: "Content",
+    subOptions: ["Dummy option", "Dummy option", "Dummy option"],
+  },
+  {
+    id: 4,
+    title: "Exhibitors",
+    subOptions: [
+      "Dummy option",
+      "Dummy option",
+      "Dummy option",
+      "Dummy option",
+    ],
+  },
 ];

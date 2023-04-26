@@ -23,8 +23,16 @@
       color: #5c00dc;
     }
   }
-  .subOptions {
-    // 12+12+24
-    margin-left: 56px;
+  .subOptions-container {
+    margin-left: 48px;
+
+    .subOption {
+      cursor: pointer;
+      margin-left: 0;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 14px;
+      line-height: 14px;
+    }
   }
 }

@@ -29,9 +29,9 @@ export const SideBarOption = ({
         <p className={getActiveClass()}>{title}</p>
       </div>
       {isActive && (
-        <div className="subOptions">
+        <div className="subOptions-container">
           {options?.map((title) => (
-            <div>{title}</div>
+            <p className="subOption">{title}</p>
           ))}
         </div>
       )}
