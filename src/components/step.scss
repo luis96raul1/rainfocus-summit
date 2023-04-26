@@ -35,6 +35,8 @@
 
 @media (max-width: 765px) {
   .step-container {
+    margin-bottom: 3.1vw;
+
     .step-title-container {
       span {
         font-size: 1.9vw;
@@ -43,6 +45,15 @@
     .step1-container {
       padding: 2vw 3vw;
       gap: 4vw;
+    }
+    .step2-container {
+      gap: 3vw;
+      justify-content: center;
+    }
+    .step3-container {
+      .card-container.step3 {
+        margin: auto;
+      }
     }
   }
 }

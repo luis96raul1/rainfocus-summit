@@ -69,8 +69,12 @@
   .card-container.step1 {
     width: 29vw;
   }
-  .card-container.step2 {
+  .card-container.step2,
+  .step3 {
     width: 36vw;
+    padding: 0 3vw;
+    min-height: 16vw;
+
     .title-container {
       margin-top: 3.7vw;
       margin-bottom: 1.1vw;
